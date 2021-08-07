@@ -1,0 +1,141 @@
+/* ::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+} */
+
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.custom-nav .custom-nav-item a{
+    color: #fff !important;
+}
+
+.custom-nav-item:hover{
+    background-color: #dc3545;
+    border: solid 1px #dc3545;
+    border-radius: 10px;
+}
+
+.remove-vid-marg{
+    margin: 0px;
+    padding: 0px;
+}
+
+.vid-parent{
+    position: relative;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+}
+
+.vid-overplay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #225470;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.vid-content{
+    position: absolute;
+    z-index: 2;
+    top: 35%;
+    left: 35%;
+    text-align: center;
+    color: #fff;
+
+}
+
+
+.bottom-banner{
+    color: #fff;
+    padding: 10px;
+}
+
+.bottom-banner:first-child{
+    padding-left: 50px;
+}
+
+a.social-hover:hover{
+    padding: 5px 100px;
+    text-decoration: none;
+    background-color: rgb(95, 93, 93);
+}
+
+.stripe{
+    background-image: linear-gradient(240deg, #ed213a, #93291e);
+    padding: 3rem;
+    height: 13rem;
+    margin-top: 4rem;
+    transform: rotate(10deg);
+    z-index: -5;
+}
+
+
+
+.owl-dots{
+    text-align: center;
+}
+.owl-dot{
+    display: inline-block;
+    background-color: #fff;
+    opacity: 0.8;
+    height: 15px !important;
+    width: 15px !important;
+    opacity: 0.8;
+    margin: 50px 5p 0;
+    border-radius: 50%;
+}
+.owl-dot.active{
+    background-color: #ff5257 !important;
+}
+
+
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 700px){
+    .my-content, .txt-banner, .stripe{
+        display: none;
+    }
+
+    .vid-content{
+        top: 15%;
+        left: 40%;
+    }
+
+    .custom-nav .custom-nav-item a{
+        padding: 10px 20px;
+        background-color: #225470;
+    }
+
+    .custom-nav-item:hover{
+        background-color: none;
+        border: none;
+        border-radius: none;
+    }
+
+    .wrapper{
+        width: 100%;
+    }
+
+  
+    
+   
+}
